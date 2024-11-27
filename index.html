@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <header>
+        <h1>Client-Center</h1>
+        <div class="nav-buttons">
+            <button onclick="showSection('clients-section')">Clients</button>
+            <button onclick="showSection('textures-section')">Texture Packs</button>
+        </div>
+    </header>
+
+    <!-- Clients Section -->
+    <section id="clients-section">
+        <h2>Clients</h2>
+        <div class="grid">
+            <div class="box" onclick="showDownloadBox('Offline Lunar Tool', 'Do you want to play Lunar client offline, then you came to the right place', 'https://cyde.xyz/wp-content/webp-express/webp-images/uploads/2024/08/LunarCracked-800x400.png.webp', 'https://download2271.mediafire.com/dq00yw3wr3cgzoIFi5e9LrIyKT2Zq2BuHip9TL2aGrQA4sOzqtnPgalT75XYFLshP4DTrOK8c1l2Jqcu2onU2qVjeSDhiDApcCgGQmcTwQnZTdlurWWZ4l0_niH9CuEXqnJlOMablq71ndukmXk4fzIb4milw2sCaswih9mwuQI/ejs0e6vaf2r1owq/CrackedLunarAccountTool.exe')">
+                <img src="https://cyde.xyz/wp-content/webp-express/webp-images/uploads/2024/08/LunarCracked-800x400.png.webp" alt="Client A Image">
+                <h3>Client A</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Raven XD', 'Raven b4 but free', 'https://i.ytimg.com/vi/v6Cvu3rCCYA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAOEfu076Dx-JY0yiyCOmsJLzr2Ag', 'https://github.com/xia-mc/Raven-XD/releases/download/v2.11/raven-XD.jar')">
+                <img src="https://i.ytimg.com/vi/v6Cvu3rCCYA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAOEfu076Dx-JY0yiyCOmsJLzr2Ag" alt="Client B Image">
+                <h3>Raven XD</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Raven B+', 'Raven b+ is built on top of Raven b3, adding quality of life improvements, bug fixes, and much more.', 'https://i.ytimg.com/vi/ZYCVlSc_k1Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDb6ajtg4i6tdeMpgjY-Bw258faJQ', 'https://github.com/Kopamed/Raven-bPLUS/releases/download/Stable1.0.26/1.8.9.BetterKeystrokes.V-1.2.jar')">
+                <img src="https://i.ytimg.com/vi/ZYCVlSc_k1Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDb6ajtg4i6tdeMpgjY-Bw258faJQ" alt="Client C Image">
+                <h3>Raven B+</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Raven B++', 'Raven B++ is a continuation of Raven B+ which was being handled by Kopamed. This project was made because Raven B+ was discontinued.', 'https://i.ytimg.com/vi/KNRnaifkf3Q/maxresdefault.jpg', 'https://github.com/K-ov/Raven-bPLUS/raw/stable/build/libs/%5B1.8.9%5D%20BetterKeystrokes%20V-1.2.jar')">
+                <img src="https://i.ytimg.com/vi/KNRnaifkf3Q/maxresdefault.jpg">
+                <h3>Raven B++</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Raven BS', 'Raven BS Client (1.8.9) is free version of Raven B4. It has quality features like AntiFireball, ItemESP, and more. No Bloat, no junk, based off Raven B3, with the help of Raven B4 Source.', 'https://www.9minecraft.net/wp-content/uploads/2024/05/Raven-BS-Client.jpg', 'https://github.com/Strangerrrs/Raven-bS/releases/download/10/raven-bS.jar')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2024/05/Raven-BS-Client.jpg">
+                <h3>Raven BS</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('NightX Client', 'NightX Client (1.8.9) is based on LiquidBounce+. This is a new free client completed early 2023. It has many improved features compared to old clients. The aura with the velocity is really good. The client has the best killaura.', 'https://www.9minecraft.net/wp-content/uploads/2023/04/NightX-Client.jpg', 'https://github.com/Aspw-w/NightX-Client/releases/download/B131/nightx-b131.jar')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2023/04/NightX-Client.jpg">
+                <h3>NightX Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Slack Client', 'Slack Client (1.8.9) is a Budget Hybrid Client focused on the Hypixel experience. It highly customizable with over 80 modules. Slack Client boasts an easy-to-use scripting API, comparable to Astolfo and Raven B4. Users can select visual themes and color presets that suit their preferences.', 'https://www.9minecraft.net/wp-content/uploads/2024/07/Slack-Client.jpg', 'https://download.9mcstorage.com/index.php?act=download&id=1721044524&hash=67471aa5e4050')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2024/07/Slack-Client.jpg" alt="Client B Image">
+                <h3>Slack Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Haru Client', 'Haru Client (1.8.9) is based on Raven B+ and is developed by Cvrwed. It provides features like auto-clickers, improved GUIs, and other utilities that can enhance your gaming experience.', 'https://www.9minecraft.net/wp-content/uploads/2024/05/Haru-Client.jpg', 'https://github.com/Cvrwed/Haru/releases/download/2.38/Haru-2.38.jar')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2024/05/Haru-Client.jpg" alt="Client B Image">
+                <h3>Haru Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Acrimony Client ', 'Acrimony Client (1.8.9) is an open-source client released in June of 2024 and is currently under development. It has many Ghost features similar to paid clients. However, we do not encourage this; strive and experience it using your own abilities.', 'https://www.9minecraft.net/wp-content/uploads/2024/06/Acrimony-Client.jpg', 'https://github.com/spartanoah/acrimony-client/releases/download/v1.0.3/Acrimony.v1.0.3.zip')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2024/06/Acrimony-Client.jpg" alt="Client B Image">
+                <h3>Acrimony Client </h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Pulsive Client', 'Pulsive Client (1.8.9) is the most lightweight ghost cheat of all time, fully external and supports all clients.', 'https://www.9minecraft.net/wp-content/uploads/2022/06/Pulsive-Client.jpg', 'https://dl.9mcstorage.com/index.php?act=download&id=1679283085&hash=67471c520a7b6')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2022/06/Pulsive-Client.jpg" alt="Client B Image">
+                <h3>Pulsive Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Wind Client', 'Wind Client (1.8.9) is a brand new client for Minecraft that offers new UI, new settings, etc. This client has many extensions and other features you can add on to it. There is a background made up of woods and a night sky. This is a very chill vibe', 'https://www.9minecraft.net/wp-content/uploads/2022/06/Wind-Client.jpg', 'https://dl4.9mcstorage.com/index.php?act=download&id=1665987369&hash=67471cf927f1a')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2022/06/Wind-Client.jpg" alt="Client B Image">
+                <h3>Wind Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Raven B1', 'The one and only one which started it all. Raven B1 Client (1.8.9) is the first ever build of Raven. The client offers various modules, including combat enhancements like Reach, AutoClicker, FastPlace, AntiBot and other useful features.', 'https://www.9minecraft.net/wp-content/uploads/2024/05/Raven-B1-Client.jpg', 'https://download.9mcstorage.com/index.php?act=download&id=1716786770&hash=67471b287d946')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2024/05/Raven-B1-Client.jpg" alt="Client B Image">
+                <h3>Raven B1</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Soar Client', 'Soar Client (1.8.9) is a modern next generation Minecraft PvP Client. This is a client with a very modern interface design (even futuristic), everything is easy to understand and use. The first advantage must be that you can play Minecraft for free. It has many mods like other paid clients. One small drawback is that it does not increase FPS as expected by many players.', 'https://www.9minecraft.net/wp-content/uploads/2023/06/Soar-Client.jpg', 'https://dl.9mcstorage.com/index.php?act=download&id=1686488171&hash=67471a38b71b4')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2023/06/Soar-Client.jpg" alt="Client B Image">
+                <h3>Soar Client</h3>
+                </div> 
+                <div class="box" onclick="showDownloadBox('Tenacity Client ', 'Tenacity Client (1.8.9) is a client with great visuals and features. It’s one of the best PVP clients, and it will definitely not disappoint you.', 'https://www.9minecraft.net/wp-content/uploads/2024/01/Tenacity-Client.jpg', 'https://files2.9mcstorage.com/index.php?act=download&id=1679299402&hash=674719e21b447')">
+                    <img src="https://www.9minecraft.net/wp-content/uploads/2024/01/Tenacity-Client.jpg" alt="Client B Image">
+                    <h3>Tenacity Client </h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('DiabloX Client ', 'DiabloX Client (1.8.9) is a good client for bypassing Hypixel. It has an excellent visual interface and is highly customizable with various angles. Additionally, it supports different types of ESP.', 'https://www.9minecraft.net/wp-content/uploads/2024/07/DiabloX-Client.jpg', 'https://download2.9mcstorage.com/index.php?act=download&id=1721034380&hash=6747199fb65f8')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2024/07/DiabloX-Client.jpg" alt="Client B Image">
+                <h3>DiabloX Client </h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Lime Client', 'Lime Client (1.8.9) is an insane free client for PvP (Hypixel, Bedwars, BlocksMC…). Although it is free, it has a lot of good functions like other paid versions. For example: Flying, Capes, Speed Move… With this client you are completely capable of winning easily. Trust me.', 'https://www.9minecraft.net/wp-content/uploads/2023/12/Lime-Client.jpg', 'https://dl.9mcstorage.com/index.php?act=download&id=1665976660&hash=67471950ddc7c')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2023/12/Lime-Client.jpg" alt="Client B Image">
+                <h3>Lime Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Raven B+++ Client', 'Raven B has been a well-known client name in the Minecraft community for a long time. After many upgrades, Raven B+++ Client (1.8.9) was finally released. With optimizations for performance, it will help you play games more smoothly and is the most worthy free client to use at the moment.', 'https://www.9minecraft.net/wp-content/uploads/2023/10/Raven-B-Three-Plus-Client.jpg', 'https://files3.9mcstorage.com/index.php?act=download&id=1697181474&hash=674716c9aa206')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2023/10/Raven-B-Three-Plus-Client.jpg" alt="Client B Image">
+                <h3>Raven B+++ Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Novoline Client', 'Novoline Client (1.8.9) is the best Utility Modification for Minecraft with a bunch of exclusive features. Built for the smoothest experience.', 'https://www.9minecraft.net/wp-content/uploads/2023/03/Novoline-Client.jpg', 'https://dl7.9minecraft.net/Legacy/dl4/Download/Novoline-Client-1.8.9.zip')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2023/03/Novoline-Client.jpg" alt="Client B Image">
+                <h3>Novoline Client</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Kawaii Client', 'Kawaii Client (1.8.9) is a client with a variety of ghost and blatant features, it has bypasses for servers such as: Hypixel, Minemen club and many other servers. This client is quite interesting and powerful enough.', 'https://www.9minecraft.net/wp-content/uploads/2023/03/Kawaii-Client.jpg', 'https://dl3.9mcstorage.com/index.php?act=download&id=1678955601&hash=674717e7476f6')">
+                <img src="https://www.9minecraft.net/wp-content/uploads/2023/03/Kawaii-Client.jpg" alt="Client B Image">
+                <h3>Kawaii Client</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Texture Packs Section -->
+    <section id="textures-section" style="display: none;">
+        <h2>Texture Packs</h2>
+        <div class="grid">
+            <div class="box" onclick="showDownloadBox('e_Wioh_Private_32x', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1248426259717947412/2024-06-06_17.00.03.png?ex=67485b4e&is=674709ce&hm=a7bc17492fec41c81da4413bea550d0d04c3ef8deb3ef1a4d8a7b414d6a2b961&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1248426305184206988/e_Wioh_Private_32x.zip?ex=67485b59&is=674709d9&hm=4208cdd051292cd3ba43329df8ecf3c4c4ad04ebf5fa59cd1077b44cc1da874a&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1248426259717947412/2024-06-06_17.00.03.png?ex=67485b4e&is=674709ce&hm=a7bc17492fec41c81da4413bea550d0d04c3ef8deb3ef1a4d8a7b414d6a2b961&" alt="Texture Pack A Image">
+                <h3>e_Wioh_Private_32x</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('4lfronga_flprivate', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1248425905433346109/2024-06-06_16.58.21.png?ex=67485afa&is=6747097a&hm=a44feb3ebbf878ac825b9f565d3b2c811f1c0f1632d8a45aaacd1004fc7d77a8&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1248425905005658123/4lfronga_flprivate.zip?ex=67485afa&is=6747097a&hm=fbb6fce87e1669d19b18aa4c07fc07c9ffd05ee9ade0d7740bc0d0ac2fbe5dc0&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1248425905433346109/2024-06-06_16.58.21.png?ex=67485afa&is=6747097a&hm=a44feb3ebbf878ac825b9f565d3b2c811f1c0f1632d8a45aaacd1004fc7d77a8&">
+                <h3>4lfronga_flprivate</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('bTrue_Blue_-32x-', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1230562578019913818/2024-04-18_09.56.07.png?ex=6747f7f5&is=6746a675&hm=a138787d6af8f31f7729aed3afc8fcd441feb3847e741c512a4b37cb0d1c7c80&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1230562578535551067/bTrue_Blue_-32x-.zip?ex=6747f7f5&is=6746a675&hm=e5bc7ebdcc69a5e408c8978ea8a1b95d286a548e6c83f99f0a138204e6ed42aa&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1230562578019913818/2024-04-18_09.56.07.png?ex=6747f7f5&is=6746a675&hm=a138787d6af8f31f7729aed3afc8fcd441feb3847e741c512a4b37cb0d1c7c80&">
+                <h3>bTrue_Blue_-32x-</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('blVeggieFul_fl16x', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206392127572152340/2024-02-11_16.09.43.png?ex=67485df8&is=67470c78&hm=9459a1b46fd419c0f6eae61952d6ff117e543ee162483985b5609d096f261645&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206392127786057778/blVeggieFul_fl16x.zip?ex=67485df8&is=67470c78&hm=71edb9b149241ae687828993e05b693d2d3823a669a3328b6d3f09dfd3099192&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1206392127572152340/2024-02-11_16.09.43.png?ex=67485df8&is=67470c78&hm=9459a1b46fd419c0f6eae61952d6ff117e543ee162483985b5609d096f261645&">
+                <h3>blVeggieFul_fl16x</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('bNosFault_7f16x78', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206391601363156992/2024-02-11_16.08.46.png?ex=67485d7b&is=67470bfb&hm=57d5bcfe646bf4461edb32cfc1c53ed1eee674a244d75ae52bf513a3a506a729&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206391601610358805/bNosFault_7f16x78.zip?ex=67485d7b&is=67470bfb&hm=4139d489ae1427a0bb2ffe7fa9f6f35ef27b0e10655f546178a2afbf7e95fcff&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1206391601363156992/2024-02-11_16.08.46.png?ex=67485d7b&is=67470bfb&hm=57d5bcfe646bf4461edb32cfc1c53ed1eee674a244d75ae52bf513a3a506a729&">
+                <h3>bNosFault_7f16x78</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('fAbsolute_7f16x78', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206391439374950440/2024-02-11_16.08.07.png?ex=67485d54&is=67470bd4&hm=07aae3416d136119efe6e2edbcf754467b5f0fb7dbd5b224ad8f1aabc78c212c&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206391439710355476/fAbsolute_7f16x78.zip?ex=67485d54&is=67470bd4&hm=b70a24ce2c9689eddea33b851b1017b7135e1694ee304c64669dbc539c435dca&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1206391439374950440/2024-02-11_16.08.07.png?ex=67485d54&is=67470bd4&hm=07aae3416d136119efe6e2edbcf754467b5f0fb7dbd5b224ad8f1aabc78c212c&">
+                <h3>fAbsolute_7f16x78</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('1Daunted_716x', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206391333686747177/2024-02-11_16.07.34.png?ex=67485d3b&is=67470bbb&hm=f0e5ef66a3eb813ea41439272861152cf6797488e954b8d223f5e0fca17a3cf7&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1206391333955178586/1Daunted_716x_r.zip?ex=67485d3b&is=67470bbb&hm=b09fe25341a764c31b88356b1b0c281d98a1bdb8effb025cc444ec085e3e4ba7&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1206391333686747177/2024-02-11_16.07.34.png?ex=67485d3b&is=67470bbb&hm=f0e5ef66a3eb813ea41439272861152cf6797488e954b8d223f5e0fca17a3cf7&">
+                <h3>1Daunted_716x</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('zachariah_pack', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1195844976421118082/2024-01-13_13.40.39.png?ex=67483aac&is=6746e92c&hm=dc6f82df24226603bea500fffbef72a4007d0b7424bf17f096ad6a72d1cc535e&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1195844976655995031/zachariah_pack.zip?ex=67483aac&is=6746e92c&hm=c291015ee33a7fb21b02057bc0956e2fca1e1b2704e3b74e6753d4c3fb5bb8c6&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1195844976421118082/2024-01-13_13.40.39.png?ex=67483aac&is=6746e92c&hm=dc6f82df24226603bea500fffbef72a4007d0b7424bf17f096ad6a72d1cc535e&">
+                <h3>zachariah_pack</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('fsnow9fault_f16x', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1192952322846896288/2024-01-05_14.04.35.png?ex=674840ad&is=6746ef2d&hm=c63ae9bebadb20ce57380bd9dd806557092d903af879dd8962974dac7b9ceb51&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1192952322041593967/fsnow9fault_f16x.zip?ex=674840ad&is=6746ef2d&hm=91281842d124a90ee1e27b6aaf0700c614fa8a3781352e236256407e25463d79&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1192952322846896288/2024-01-05_14.04.35.png?ex=674840ad&is=6746ef2d&hm=c63ae9bebadb20ce57380bd9dd806557092d903af879dd8962974dac7b9ceb51&">
+                <h3>fsnow9fault_f16x</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('2707_default_mint', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1192951710101020833/2024-01-05_14.03.53.png?ex=6748401b&is=6746ee9b&hm=5071cb5c111bf704e46040da552dfb05c06824aa32fc02d08c785c4ada679383&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1192951709652226048/2707_default_mint.zip?ex=6748401b&is=6746ee9b&hm=b99ebdafca0236c3c1cc3feb9b7461c4e46cb067c18bffc267df16cdb85e6178&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1192951710101020833/2024-01-05_14.03.53.png?ex=6748401b&is=6746ee9b&hm=5071cb5c111bf704e46040da552dfb05c06824aa32fc02d08c785c4ada679383&">
+                <h3>2707_default_mint</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('3Aquatic_32x', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1183159712175362128/2023-12-09_13.33.56.png?ex=67483919&is=6746e799&hm=be054251678a4cccbd8128bf6507b00f82f6c765350243792ad5950a028d16df&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1183159712393461921/3Aquatic_32x.zip?ex=67483919&is=6746e799&hm=f8ebd2a768cb5a3b678ac1ee3341e594dd4ed457038a2347819c9ea567bb765a&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1183159712175362128/2023-12-09_13.33.56.png?ex=67483919&is=6746e799&hm=be054251678a4cccbd8128bf6507b00f82f6c765350243792ad5950a028d16df&">
+                <h3>3Aquatic_32x</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('Cirrus_32x', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1137469272952668282/2023-08-05_12.36.16.png?ex=67481d8f&is=6746cc0f&hm=46cd19df769505fbef54367525dcec0c58f9c8d42866f07187b4e8773b4f65d1&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1137469273221115945/Cirrus_32x.zip?ex=67481d8f&is=6746cc0f&hm=f7900617773a71d4de526cb684071458f6f5f73e281da04491c080b7dbe3dbdd&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1137469272952668282/2023-08-05_12.36.16.png?ex=67481d8f&is=6746cc0f&hm=46cd19df769505fbef54367525dcec0c58f9c8d42866f07187b4e8773b4f65d1&">
+                <h3>Cirrus_32x</h3>
+            </div>
+            <div class="box" onclick="showDownloadBox('9l_Blue_Sea_32x', '', 'https://cdn.discordapp.com/attachments/1119823367755808798/1126957270652170360/2023-07-07_12.25.25.png?ex=67481aff&is=6746c97f&hm=7589ad3ff91d32e2904eb2550ebbcee3a88c9eeb20f531bfac7bbe9f18eb6891&', 'https://cdn.discordapp.com/attachments/1119823367755808798/1126957270849310881/9l_Blue_Sea_32x.zip?ex=67481aff&is=6746c97f&hm=1f3048f4278cdc827bb8d7553f2509123cd0194e658c2874a4723ec732707b71&')">
+                <img src="https://cdn.discordapp.com/attachments/1119823367755808798/1126957270652170360/2023-07-07_12.25.25.png?ex=67481aff&is=6746c97f&hm=7589ad3ff91d32e2904eb2550ebbcee3a88c9eeb20f531bfac7bbe9f18eb6891&">
+                <h3>9l_Blue_Sea_32x</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Download Box -->
+    <div class="download-box" id="download-box">
+        <div class="box-content">
+            <button class="close-button" onclick="closeDownloadBox()">×</button>
+            <img id="download-image" src="" alt="Download Image" class="download-image" />
+            <h2 id="download-title">Title</h2>
+            <p id="download-description">Description</p>
+            <a id="download-link" href="#" class="download-button" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
